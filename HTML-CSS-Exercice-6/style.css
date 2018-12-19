@@ -1,0 +1,22 @@
+﻿body {
+	display: flex;
+	flex-direction: column;
+}
+
+#identity, #identity legend {
+	background-color: #2574A9;
+}
+
+#shipping, #shipping legend {
+	background-color: #9A12B3;
+}
+
+#payement, #payement legend {
+	background-color: #DB0A5B;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+}

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML / CSS - Exercice 6</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<form>
+		<fieldset id="identity">
+			<legend>Votre identité</legend>
+			<label for="last_name">1. Nom : <input type="text" id="last_name" name="last_name"></label><br />
+			<label for="first_name">2. Prénom : <input type="text" id="first_name" name="first_name"></label><br />
+			<label for="email">3. Adresse mail : <input type="text" id="email" name="email"></label><br />
+		</fieldset>
+
+		<fieldset id="shipping">
+			<legend>Adresse de livraison</legend>
+			<label for="address">1. Adresse : <textarea id="address" name="address" rows="3" cols="18"></textarea></label><br />
+			<label for="zipcode">2. Code Postal : <input type="text" id="zipcode" name="zipcode"></label><br />
+			<label for="city">3. Ville : <input type="text" id="city" name="city"></label><br />
+		</fieldset>
+
+		<fieldset id="payement">
+			<legend>Informations de règlement</legend>
+			1. Type de carte bancaire: <br />
+			<ul>
+				<li>
+					<label for="title_1">
+						<input type="radio" id="title_1" name="title" value="M.">
+						VISA
+					</label>
+				</li>
+				<li>
+					<label for="title_2">
+						<input type="radio" id="title_2" name="title" value="Mme.">
+						Mastercard
+					</label>
+				</li>
+			</ul>
+			<label for="card_number">2. Numéro de carte : <input type="text" id="card_number" name="card_number"></label><br />
+			<label for="secure_code">3. Code de sécurité : <input type="text" id="secure_code" name="secure_code"></label><br />
+			<label for="cardholder_name">4. Nom du titulaire : <input type="text" id="cardholder_name" name="cardholder_name"></label><br />
+		</fieldset>
+		<button type="submit">J'achète</button>
+	</form>
+</body>
+</html>
